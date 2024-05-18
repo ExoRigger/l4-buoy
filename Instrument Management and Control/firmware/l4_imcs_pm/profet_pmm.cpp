@@ -37,7 +37,7 @@ ProfetPMM::ProfetPMM(int module_no, int channel_no,int led_pin, int switch_pin, 
   this->voltage = 0;
   this->current_offset = 0;
   this->r_sense = 4700; //4.7k resistor in schematics
-  this->kilis = 17700; // K value for BTS-7002
+  this->kilis = 22700; // K value for BTS-7002-1EPP
   init();
 }
 
